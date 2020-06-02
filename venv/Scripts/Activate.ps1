@@ -27,7 +27,11 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
+<<<<<<< HEAD
 $env:VIRTUAL_ENV="C:\Users\blackwatch\Desktop\JD\venv"
+=======
+$env:VIRTUAL_ENV="C:\Users\blackwatch\Desktop\taobao-JD-TM-scripts\venv"
+>>>>>>> 0d5b9f6dc16eb55bdce15a86a20bfb40335ba9b6
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

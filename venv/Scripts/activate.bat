@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\blackwatch\Desktop\JD\venv
+=======
+set VIRTUAL_ENV=C:\Users\blackwatch\Desktop\taobao-JD-TM-scripts\venv
+>>>>>>> 0d5b9f6dc16eb55bdce15a86a20bfb40335ba9b6
 
 if not defined PROMPT set PROMPT=$P$G
 

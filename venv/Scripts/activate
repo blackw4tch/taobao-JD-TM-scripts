@@ -37,7 +37,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="C:\Users\blackwatch\Desktop\JD\venv"
+=======
+VIRTUAL_ENV="C:\Users\blackwatch\Desktop\taobao-JD-TM-scripts\venv"
+>>>>>>> 0d5b9f6dc16eb55bdce15a86a20bfb40335ba9b6
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

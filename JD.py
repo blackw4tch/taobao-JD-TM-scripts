@@ -37,12 +37,13 @@ def buy(times):
                     try:
                         if browser.find_element_by_xpath('//*[@id="quark-pw-list"]/i[1]'):
                             browser.find_element_by_xpath('//*[@id="quark-pw-list"]/i[1]').click()
-                            k.tap_key('1')
-                            k.tap_key('9')
-                            k.tap_key('6')
-                            k.tap_key('4')
-                            k.tap_key('0')
-                            k.tap_key('0')
+                            '''input your own JD pay pwd'''
+                            k.tap_key('*')
+                            k.tap_key('*')
+                            k.tap_key('*')
+                            k.tap_key('*')
+                            k.tap_key('*')
+                            k.tap_key('*')
                     except:
                         browser.find_element_by_xpath('//*[@id="order-submit"]')
                         browser.find_element_by_xpath('//*[@id="order-submit"]').click()
